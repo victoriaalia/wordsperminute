@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1f1b1b;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+  font-size: 32px;
+}
+h1 {
+  font-size: 50px;
+}
+button {
+  color: #f6fff6;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  text-shadow: -2px 2px 5px #33fd30;
+  background-color: transparent;
+  border: 2px solid #bbfeb1;
+  box-shadow: 0 0 0px 1px #42f112,
+    0 0 10px 2px #33fd30,
+    inset 0 0 0px 1px #42f112,
+    inset 0 0 10px 2px #33fd30;
+  transition: 100ms;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  
+}
+button:hover {
+  box-shadow: 0 0 0px 1px #42f112,
+    0 0 10px 2px #33fd30,
+    inset 0 0 0px 1px #42f112,
+    inset 0 0 30px 2px #33fd30;
+  text-shadow: 0 0 10px #33fd30;
+  transform: translateY(-5px);
+}
+button:active {
+  box-shadow: 0 0 0px 1px #42f112,
+    0 0 25px 2px #33fd30,
+    inset 0 0 0px 1px #42f112,
+    inset 0 0 30px 2px #33fd30;
+  transform: translateY(1px);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  place-items: center;
+  min-width: 800px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+
