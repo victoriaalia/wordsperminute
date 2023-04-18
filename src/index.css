@@ -67,9 +67,6 @@ img {
 body {
   margin: auto;
   display: grid;
-  grid-template-columns: 2fr;
-  justify-items: end;
-  place-items: center;
   min-width: 800px;
   min-height: 100vh;
   justify-content: center;
