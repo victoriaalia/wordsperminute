@@ -1,4 +1,4 @@
-# ⌚ WORDS PER MINUTE
+#⌚ WORDS PER MINUTE
 
 ## 🤓 Overview
 
